@@ -1,0 +1,27 @@
+{
+  "name": "email_list",
+  "version": "1.0.0",
+  "description": "Customer email list built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Susan Liu",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^4.1.2",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.10",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
