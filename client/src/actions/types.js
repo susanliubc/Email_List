@@ -1,0 +1,15 @@
+export const GET_EMAILS = 'GET_EMAILS';
+export const ADD_EMAIL = 'ADD_EMAIL';
+export const DELETE_EMAIL = 'DELETE_EMAIL';
+export const EMAILS_ERROR = 'EMAILS_ERROR';
+export const EMAIL_LOADING = 'EMAIL_LOADING';
+export const USER_LOADING = 'USER_LOADING';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
